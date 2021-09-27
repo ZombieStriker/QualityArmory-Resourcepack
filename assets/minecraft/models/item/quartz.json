@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "items/quartz"
+        "layer0": "item/quartz"
     },
     "overrides": [
     {
