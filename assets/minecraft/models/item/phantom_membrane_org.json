@@ -1,0 +1,18 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/phantom_membrane"
+    },
+   "overrides": [
+       {"predicate": {"custom_model_data":1}, "model": "item/ammo9mm"}
+       {"predicate": {"custom_model_data":2}, "model": "item/ammo556"}
+       {"predicate": {"custom_model_data":3}, "model": "item/ammo762"}
+       {"predicate": {"custom_model_data":4}, "model": "item/ammoshotgun"}
+       {"predicate": {"custom_model_data":5}, "model": "item/ammorpg"}
+       {"predicate": {"custom_model_data":6}, "model": "item/ammomusketball"}
+       {"predicate": {"custom_model_data":7}, "model": "item/ammo50cal"}
+       {"predicate": {"custom_model_data":8}, "model": "item/ammo40m"}
+       {"predicate": {"custom_model_data":9}, "model": "item/ammomininuke"}
+       {"predicate": {"custom_model_data":10}, "model": "item/ammofusion"}
+   ]
+}

@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
+	"textures": {
+		"0": "items/rgbsheet1",
+		"particle": "items/rgbsheet1"
+	},
+	"elements": [
+		{
+			"from": [-16, 11, 6],
+			"to": [32, 12, 10],
+			"faces": {
+				"north": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"east": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"south": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"west": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"up": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"down": {"uv": [8, 14, 9, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 11, -16],
+			"to": [10, 12, 32],
+			"faces": {
+				"north": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"east": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"south": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"west": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"up": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"down": {"uv": [8, 14, 9, 15], "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 4.75, 7],
+			"to": [9, 12.75, 9],
+			"faces": {
+				"north": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"east": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"south": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"west": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"up": {"uv": [8, 14, 9, 15], "texture": "#0"},
+				"down": {"uv": [8, 14, 9, 15], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"scale": [4, 4, 4],
+			"translation": [0, 32, 0]
+		}
+	}
+}

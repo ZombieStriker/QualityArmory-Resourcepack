@@ -1,0 +1,140 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "item/phantom_membrane"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "item/ammo/ammo9mm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "item/ammo/ammo556"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "item/ammo/ammo762"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "item/ammo/ammoshotgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "item/ammo/ammorpg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "item/ammo/ammomusketball"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "item/ammo/ammo50cal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "item/ammo/ammo40m"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "item/ammo/ammomininuke"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "item/ammo/ammofusion"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 11
+      },
+      "model": "item/backpacks/backpackgreen"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "item/backpacks/backpackparachute"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "item/backpacks/parachutewhite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "item/backpacks/backpackblack"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "item/backpacks/backpackblue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 16
+      },
+      "model": "item/backpacks/backpackorange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "item/backpacks/backpackpink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 18
+      },
+      "model": "item/armor/assaultmask"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "item/armor/ncrmask"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "item/armor/skimask"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "item/armor/ushankahat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "item/misc/medkit"
+    }
+  ]
+}
