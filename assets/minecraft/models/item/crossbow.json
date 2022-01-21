@@ -562,6 +562,12 @@
         "custom_model_data": 84
       },
       "model": "item/guns/ctar21"
+    },
+	{
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "model": "item/misc/ammobag"
     }
 	]
 }
