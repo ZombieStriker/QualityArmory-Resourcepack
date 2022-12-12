@@ -1,140 +1,140 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "item/phantom_membrane"
+    "layer0": "minecraft:item/phantom_membrane"
   },
   "overrides": [
     {
       "predicate": {
         "custom_model_data": 1
       },
-      "model": "item/ammo/ammo9mm"
+      "model": "qualityarmory:ammo/ammo9mm"
     },
     {
       "predicate": {
         "custom_model_data": 2
       },
-      "model": "item/ammo/ammo556"
+      "model": "qualityarmory:ammo/ammo556"
     },
     {
       "predicate": {
         "custom_model_data": 3
       },
-      "model": "item/ammo/ammo762"
+      "model": "qualityarmory:ammo/ammo762"
     },
     {
       "predicate": {
         "custom_model_data": 4
       },
-      "model": "item/ammo/ammoshotgun"
+      "model": "qualityarmory:ammo/ammoshotgun"
     },
     {
       "predicate": {
         "custom_model_data": 5
       },
-      "model": "item/ammo/ammorpg"
+      "model": "qualityarmory:ammo/ammorpg"
     },
     {
       "predicate": {
         "custom_model_data": 6
       },
-      "model": "item/ammo/ammomusketball"
+      "model": "qualityarmory:ammo/ammomusketball"
     },
     {
       "predicate": {
         "custom_model_data": 7
       },
-      "model": "item/ammo/ammo50cal"
+      "model": "qualityarmory:ammo/ammo50cal"
     },
     {
       "predicate": {
         "custom_model_data": 8
       },
-      "model": "item/ammo/ammo40m"
+      "model": "qualityarmory:ammo/ammo40m"
     },
     {
       "predicate": {
         "custom_model_data": 9
       },
-      "model": "item/ammo/ammomininuke"
+      "model": "qualityarmory:ammo/ammomininuke"
     },
     {
       "predicate": {
         "custom_model_data": 10
       },
-      "model": "item/ammo/ammofusion"
+      "model": "qualityarmory:ammo/ammofusion"
     },
     {
       "predicate": {
         "custom_model_data": 11
       },
-      "model": "item/backpacks/backpackgreen"
+      "model": "qualityarmory:backpack/backpackgreen"
     },
     {
       "predicate": {
         "custom_model_data": 12
       },
-      "model": "item/backpacks/backpackparachute"
+      "model": "qualityarmory:backpack/backpackparachute"
     },
     {
       "predicate": {
         "custom_model_data": 13
       },
-      "model": "item/backpacks/parachutewhite"
+      "model": "qualityarmory:backpack/parachutewhite"
     },
     {
       "predicate": {
         "custom_model_data": 14
       },
-      "model": "item/backpacks/backpackblack"
+      "model": "qualityarmory:backpack/backpackblack"
     },
     {
       "predicate": {
         "custom_model_data": 15
       },
-      "model": "item/backpacks/backpackblue"
+      "model": "qualityarmory:backpack/backpackblue"
     },
     {
       "predicate": {
         "custom_model_data": 16
       },
-      "model": "item/backpacks/backpackorange"
+      "model": "qualityarmory:backpack/backpackorange"
     },
     {
       "predicate": {
         "custom_model_data": 17
       },
-      "model": "item/backpacks/backpackpink"
+      "model": "qualityarmory:backpack/backpackpink"
     },
     {
       "predicate": {
         "custom_model_data": 18
       },
-      "model": "item/armor/assaultmask"
+      "model": "qualityarmory:armor/assaultmask"
     },
     {
       "predicate": {
         "custom_model_data": 19
       },
-      "model": "item/armor/ncrmask"
+      "model": "qualityarmory:armor/ncrmask"
     },
     {
       "predicate": {
         "custom_model_data": 20
       },
-      "model": "item/armor/skimask"
+      "model": "qualityarmory:armor/skimask"
     },
     {
       "predicate": {
         "custom_model_data": 21
       },
-      "model": "item/armor/ushankahat"
+      "model": "qualityarmory:armor/ushankahat"
     },
     {
       "predicate": {
         "custom_model_data": 22
       },
-      "model": "item/misc/medkit"
+      "model": "qualityarmory:misc/medkit"
     }
   ]
 }
