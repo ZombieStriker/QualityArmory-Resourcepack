@@ -25,549 +25,96 @@
             "scale": [ 0.68, 0.68, 0.68 ]
         }
     },
-    "overrides": [
-        {
-            "predicate": {
-                "pulling": 1
-            },
-            "model": "item/crossbow_pulling_0"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 0.58
-            },
-            "model": "item/crossbow_pulling_1"
-        },
-        {
-            "predicate": {
-                "pulling": 1,
-                "pull": 1.0
-            },
-            "model": "item/crossbow_pulling_2"
-        },
-        {
-            "predicate": {
-                "charged": 1
-            },
-            "model": "item/crossbow_arrow"
-        },
-        {
-            "predicate": {
-                "charged": 1,
-                "firework": 1
-            },
-            "model": "item/crossbow_firework"
-        },
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/guns/p30"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "item/guns/pkp"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "item/guns/mp5"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
-      },
-      "model": "item/guns/ak47"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
-      },
-      "model": "item/guns/ak47u"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
-      },
-      "model": "item/guns/m16"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 7
-      },
-      "model": "item/guns/remmington"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8
-      },
-      "model": "item/guns/fnfal"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 9
-      },
-      "model": "item/guns/rpg"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 10
-      },
-      "model": "item/guns/ump"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 11
-      },
-      "model": "item/guns/sw1911"
-    },    
-    {
-      "predicate": {
-        "custom_model_data": 12
-      },
-      "model": "item/guns/m40"
-    },    
-    {
-      "predicate": {
-        "custom_model_data": 13
-      },
-      "model": "item/guns/enfield"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 14
-      },
-      "model": "item/guns/mauser"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 15
-      },
-      "model": "item/misc/grenade"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 16
-      },
-      "model": "item/guns/dragunov"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 17
-      },
-      "model": "item/guns/spas"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18
-      },
-      "model": "item/guns/aa12"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 19
-      },
-      "model": "item/guns/magnum"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 20
-      },
-      "model": "item/guns/awp"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 21
-      },
-      "model": "item/misc/smokegrenade"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 22
-      },
-      "model": "item/misc/flashbang"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 23
-      },
-      "model": "item/guns/p30sil"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 24
-      },
-      "model": "item/guns/awp2"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 25
-      },
-      "model": "item/guns/m4a1s"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 26
-      },
-      "model": "item/guns/rpk"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 27
-      },
-      "model": "item/guns/sg553"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 28
-      },
-      "model": "item/guns/dp27"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 29
-      },
-      "model": "item/misc/incendarygrenade"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 30
-      },
-      "model": "item/guns/homingrpg"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 31
-      },
-      "model": "item/guns/musketpistol"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 32
-      },
-      "model": "item/guns/lazerrifle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 33
-      },
-      "model": "item/guns/fatman"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 34
-      },
-      "model": "item/guns/fo10mm"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 35
-      },
-      "model": "item/guns/instituterifle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 36
-      },
-      "model": "item/guns/musketrifle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 37
-      },
-      "model": "item/guns/aliens"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 38
-      },
-      "model": "item/guns/auto9"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 39
-      },
-      "model": "item/guns/arcgun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 40
-      },
-      "model": "item/guns/halo"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 41
-      },
-      "model": "item/guns/needler"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 42
-      },
-      "model": "item/guns/thatgun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 43
-      },
-      "model": "item/guns/swblaster"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 44
-      },
-      "model": "item/guns/overwatchpulsegun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 45
-      },
-      "model": "item/guns/vera"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 46
-      },
-      "model": "item/melee/lightsaberblue"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 47
-      },
-      "model": "item/melee/lightsaberred"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 48
-      },
-      "model": "item/guns/mac10"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 49
-      },
-      "model": "item/guns/uzi"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 50
-      },
-      "model": "item/guns/skorpion"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 51
-      },
-      "model": "item/guns/sks"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 52
-      },
-      "model": "item/guns/barrett"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 53
-      },
-      "model": "item/guns/makarov"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 54
-      },
-      "model": "item/guns/ppsh41"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 55
-      },
-      "model": "item/guns/m79"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 56
-      },
-      "model": "item/guns/minigun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 57
-      },
-      "model": "item/guns/mark19"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 58
-      },
-      "model": "item/guns/asval"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 59
-      },
-      "model": "item/guns/fnp90"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 60
-      },
-      "model": "item/guns/kar98k"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 61
-      },
-      "model": "item/guns/mp40"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 62
-      },
-      "model": "item/guns/stg44"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 63
-      },
-      "model": "item/guns/sawshotgun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 64
-      },
-      "model": "item/guns/famas"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 65
-      },
-      "model": "item/guns/flamer"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 66
-      },
-      "model": "item/guns/stengun"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 67
-      },
-      "model": "item/guns/m32a1"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 68
-      },
-      "model": "item/misc/aiming"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 69
-      },
-      "model": "item/guns/fivesevenfive"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 70
-      },
-      "model": "item/melee/lightsaberblack"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 71
-      },
-      "model": "item/melee/lightsaberwhite"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 72
-      },
-      "model": "item/melee/lightsabergreen"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 73
-      },
-      "model": "item/melee/lightsaberpurple"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 74
-      },
-      "model": "item/melee/lightsaberorange"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 75
-      },
-      "model": "item/guns/uzicorn"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 76
-      },
-      "model": "item/guns/henry"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 77
-      },
-      "model": "item/melee/spear"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 78
-      },
-      "model": "item/guns/deagle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 79
-      },
-      "model": "item/guns/pancorjackhammer"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 80
-      },
-      "model": "item/misc/molotov"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 81
-      },
-      "model": "item/misc/proxymine"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 82
-      },
-      "model": "item/guns/m1garand"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 83
-      },
-      "model": "item/guns/galil"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 84
-      },
-      "model": "item/guns/ctar21"
-    },
-	{
-      "predicate": {
-        "custom_model_data": 85
-      },
-      "model": "item/misc/ammobag"
-    }
+    "overrides":[
+        {"predicate":{"pulling":1},"model":"item/crossbow_pulling_0"},
+        {"predicate":{"pulling":1,"pull":0.58},"model":"item/crossbow_pulling_1"},
+        {"predicate":{"pulling":1,"pull":1.0},"model":"item/crossbow_pulling_2"},
+        {"predicate":{"charged":1},"model":"item/crossbow_arrow"},
+        {"predicate":{"charged":1,"firework":1},"model":"item/crossbow_firework"},
+        {"predicate":{"custom_model_data":1},"model":"qualityarmory:gun/p30"},
+        {"predicate":{"custom_model_data":2},"model":"qualityarmory:gun/pkp"},
+        {"predicate":{"custom_model_data":3},"model":"qualityarmory:gun/mp5"},
+        {"predicate":{"custom_model_data":4},"model":"qualityarmory:gun/ak47"},
+        {"predicate":{"custom_model_data":5},"model":"qualityarmory:gun/ak47u"},
+        {"predicate":{"custom_model_data":6},"model":"qualityarmory:gun/m16"},
+        {"predicate":{"custom_model_data":7},"model":"qualityarmory:gun/remmington"},
+        {"predicate":{"custom_model_data":8},"model":"qualityarmory:gun/fnfal"},
+        {"predicate":{"custom_model_data":9},"model":"qualityarmory:gun/rpg"},
+        {"predicate":{"custom_model_data":10},"model":"qualityarmory:gun/ump"},
+        {"predicate":{"custom_model_data":11},"model":"qualityarmory:gun/sw1911"},
+        {"predicate":{"custom_model_data":12},"model":"qualityarmory:gun/m40"},
+        {"predicate":{"custom_model_data":13},"model":"qualityarmory:gun/enfield"},
+        {"predicate":{"custom_model_data":14},"model":"qualityarmory:gun/mauser"},
+        {"predicate":{"custom_model_data":15},"model":"qualityarmory:misc/grenade"},
+        {"predicate":{"custom_model_data":16},"model":"qualityarmory:gun/dragunov"},
+        {"predicate":{"custom_model_data":17},"model":"qualityarmory:gun/spas"},
+        {"predicate":{"custom_model_data":18},"model":"qualityarmory:gun/aa12"},
+        {"predicate":{"custom_model_data":19},"model":"qualityarmory:gun/magnum"},
+        {"predicate":{"custom_model_data":20},"model":"qualityarmory:gun/awp"},
+        {"predicate":{"custom_model_data":21},"model":"qualityarmory:misc/smokegrenade"},
+        {"predicate":{"custom_model_data":22},"model":"qualityarmory:misc/flashbang"},
+        {"predicate":{"custom_model_data":23},"model":"qualityarmory:gun/p30sil"},
+        {"predicate":{"custom_model_data":24},"model":"qualityarmory:gun/awp2"},
+        {"predicate":{"custom_model_data":25},"model":"qualityarmory:gun/m4a1s"},
+        {"predicate":{"custom_model_data":26},"model":"qualityarmory:gun/rpk"},
+        {"predicate":{"custom_model_data":27},"model":"qualityarmory:gun/sg553"},
+        {"predicate":{"custom_model_data":28},"model":"qualityarmory:gun/dp27"},
+        {"predicate":{"custom_model_data":29},"model":"qualityarmory:misc/incendarygrenade"},
+        {"predicate":{"custom_model_data":30},"model":"qualityarmory:gun/homingrpg"},
+        {"predicate":{"custom_model_data":31},"model":"qualityarmory:gun/musketpistol"},
+        {"predicate":{"custom_model_data":32},"model":"qualityarmory:gun/lazerrifle"},
+        {"predicate":{"custom_model_data":33},"model":"qualityarmory:gun/fatman"},
+        {"predicate":{"custom_model_data":34},"model":"qualityarmory:gun/fo10mm"},
+        {"predicate":{"custom_model_data":35},"model":"qualityarmory:gun/instituterifle"},
+        {"predicate":{"custom_model_data":36},"model":"qualityarmory:gun/musketrifle"},
+        {"predicate":{"custom_model_data":37},"model":"qualityarmory:gun/aliens"},
+        {"predicate":{"custom_model_data":38},"model":"qualityarmory:gun/auto9"},
+        {"predicate":{"custom_model_data":39},"model":"qualityarmory:gun/arcgun"},
+        {"predicate":{"custom_model_data":40},"model":"qualityarmory:gun/halo"},
+        {"predicate":{"custom_model_data":41},"model":"qualityarmory:gun/needler"},
+        {"predicate":{"custom_model_data":42},"model":"qualityarmory:gun/thatgun"},
+        {"predicate":{"custom_model_data":43},"model":"qualityarmory:gun/swblaster"},
+        {"predicate":{"custom_model_data":44},"model":"qualityarmory:gun/overwatchpulsegun"},
+        {"predicate":{"custom_model_data":45},"model":"qualityarmory:gun/vera"},
+        {"predicate":{"custom_model_data":46},"model":"qualityarmory:melee/lightsaberblue"},
+        {"predicate":{"custom_model_data":47},"model":"qualityarmory:melee/lightsaberred"},
+        {"predicate":{"custom_model_data":48},"model":"qualityarmory:gun/mac10"},
+        {"predicate":{"custom_model_data":49},"model":"qualityarmory:gun/uzi"},
+        {"predicate":{"custom_model_data":50},"model":"qualityarmory:gun/skorpion"},
+        {"predicate":{"custom_model_data":51},"model":"qualityarmory:gun/sks"},
+        {"predicate":{"custom_model_data":52},"model":"qualityarmory:gun/barrett"},
+        {"predicate":{"custom_model_data":53},"model":"qualityarmory:gun/makarov"},
+        {"predicate":{"custom_model_data":54},"model":"qualityarmory:gun/ppsh41"},
+        {"predicate":{"custom_model_data":55},"model":"qualityarmory:gun/m79"},
+        {"predicate":{"custom_model_data":56},"model":"qualityarmory:gun/minigun"},
+        {"predicate":{"custom_model_data":57},"model":"qualityarmory:gun/mark19"},
+        {"predicate":{"custom_model_data":58},"model":"qualityarmory:gun/asval"},
+        {"predicate":{"custom_model_data":59},"model":"qualityarmory:gun/fnp90"},
+        {"predicate":{"custom_model_data":60},"model":"qualityarmory:gun/kar98k"},
+        {"predicate":{"custom_model_data":61},"model":"qualityarmory:gun/mp40"},
+        {"predicate":{"custom_model_data":62},"model":"qualityarmory:gun/stg44"},
+        {"predicate":{"custom_model_data":63},"model":"qualityarmory:gun/sawshotgun"},
+        {"predicate":{"custom_model_data":64},"model":"qualityarmory:gun/famas"},
+        {"predicate":{"custom_model_data":65},"model":"qualityarmory:gun/flamer"},
+        {"predicate":{"custom_model_data":66},"model":"qualityarmory:gun/stengun"},
+        {"predicate":{"custom_model_data":67},"model":"qualityarmory:gun/m32a1"},
+        {"predicate":{"custom_model_data":68},"model":"qualityarmory:misc/aiming"},
+        {"predicate":{"custom_model_data":69},"model":"qualityarmory:gun/fivesevenfive"},
+        {"predicate":{"custom_model_data":70},"model":"qualityarmory:melee/lightsaberblack"},
+        {"predicate":{"custom_model_data":71},"model":"qualityarmory:melee/lightsaberwhite"},
+        {"predicate":{"custom_model_data":72},"model":"qualityarmory:melee/lightsabergreen"},
+        {"predicate":{"custom_model_data":73},"model":"qualityarmory:melee/lightsaberpurple"},
+        {"predicate":{"custom_model_data":74},"model":"qualityarmory:melee/lightsaberorange"},
+        {"predicate":{"custom_model_data":75},"model":"qualityarmory:gun/uzicorn"},
+        {"predicate":{"custom_model_data":76},"model":"qualityarmory:gun/henry"},
+        {"predicate":{"custom_model_data":77},"model":"qualityarmory:melee/spear"},
+        {"predicate":{"custom_model_data":78},"model":"qualityarmory:gun/deagle"},
+        {"predicate":{"custom_model_data":79},"model":"qualityarmory:gun/pancorjackhammer"},
+        {"predicate":{"custom_model_data":80},"model":"qualityarmory:misc/molotov"},
+        {"predicate":{"custom_model_data":81},"model":"qualityarmory:misc/proxymine"},
+        {"predicate":{"custom_model_data":82},"model":"qualityarmory:gun/m1garand"},
+        {"predicate":{"custom_model_data":83},"model":"qualityarmory:gun/galil"},
+        {"predicate":{"custom_model_data":84},"model":"qualityarmory:gun/ctar21"},	
+        {"predicate":{"custom_model_data":85},"model":"qualityarmory:misc/ammobag"}
 	]
 }

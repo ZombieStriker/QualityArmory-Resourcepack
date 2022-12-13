@@ -4,161 +4,31 @@
         "layer0": "item/quartz"
     },
     "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/hats/tophat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "item/hats/witchhat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "item/hats/pandaears"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
-      },
-      "model": "item/hats/farmhat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
-      },
-      "model": "item/hats/crown"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
-      },
-      "model": "item/hats/squid"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 7
-      },
-      "model": "item/hats/headcrab"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8
-      },
-      "model": "item/hats/blackcap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 9
-      },
-      "model": "item/hats/bluecap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 10
-      },
-      "model": "item/hats/redcap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 11
-      },
-      "model": "item/hats/sgthat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 12
-      },
-      "model": "item/hats/yellowcap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 13
-      },
-      "model": "item/hats/nursecap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 14
-      },
-      "model": "item/hats/pinktophat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 15
-      },
-      "model": "item/hats/whitetophat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 16
-      },
-      "model": "item/hats/whitecap"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 17
-      },
-      "model": "item/hats/headphones"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18
-      },
-      "model": "item/hats/purpleheadphones"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 19
-      },
-      "model": "item/hats/firemanhat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 20
-      },
-      "model": "item/hats/policehat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 21
-      },
-      "model": "item/hats/steampunk"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 22
-      },
-      "model": "item/hats/pimphat"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 23
-      },
-      "model": "item/hats/astronauthelmet"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 24
-      },
-      "model": "item/hats/wolfhead"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 25
-      },
-      "model": "item/hats/chicken"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 26
-      },
-      "model": "item/hats/pig"
-    }
+        {"predicate":{"custom_model_data":1},"model":"qualityarmory:hat/tophat"},
+        {"predicate":{"custom_model_data":2},"model":"qualityarmory:hat/witchhat"},
+        {"predicate":{"custom_model_data":3},"model":"qualityarmory:hat/pandaears"},
+        {"predicate":{"custom_model_data":4},"model":"qualityarmory:hat/farmhat"},
+        {"predicate":{"custom_model_data":5},"model":"qualityarmory:hat/crown"},
+        {"predicate":{"custom_model_data":6},"model":"qualityarmory:hat/squid"},
+        {"predicate":{"custom_model_data":7},"model":"qualityarmory:hat/headcrab"},
+        {"predicate":{"custom_model_data":8},"model":"qualityarmory:hat/blackcap"},
+        {"predicate":{"custom_model_data":9},"model":"qualityarmory:hat/bluecap"},
+        {"predicate":{"custom_model_data":10},"model":"qualityarmory:hat/redcap"},
+        {"predicate":{"custom_model_data":11},"model":"qualityarmory:hat/sgthat"},
+        {"predicate":{"custom_model_data":12},"model":"qualityarmory:hat/yellowcap"},
+        {"predicate":{"custom_model_data":13},"model":"qualityarmory:hat/nursecap"},
+        {"predicate":{"custom_model_data":14},"model":"qualityarmory:hat/pinktophat"},
+        {"predicate":{"custom_model_data":15},"model":"qualityarmory:hat/whitetophat"},
+        {"predicate":{"custom_model_data":16},"model":"qualityarmory:hat/whitecap"},
+        {"predicate":{"custom_model_data":17},"model":"qualityarmory:hat/headphones"},
+        {"predicate":{"custom_model_data":18},"model":"qualityarmory:hat/purpleheadphones"},
+        {"predicate":{"custom_model_data":19},"model":"qualityarmory:hat/firemanhat"},
+        {"predicate":{"custom_model_data":20},"model":"qualityarmory:hat/policehat"},
+        {"predicate":{"custom_model_data":21},"model":"qualityarmory:hat/steampunk"},
+        {"predicate":{"custom_model_data":22},"model":"qualityarmory:hat/pimphat"},
+        {"predicate":{"custom_model_data":23},"model":"qualityarmory:hat/astronauthelmet"},
+        {"predicate":{"custom_model_data":24},"model":"qualityarmory:hat/wolfhead"},
+        {"predicate":{"custom_model_data":25},"model":"qualityarmory:hat/chicken"},
+        {"predicate":{"custom_model_data":26},"model":"qualityarmory:hat/pig"}
 	]
 }

@@ -4,239 +4,44 @@
         "layer0": "item/rabbit_hide"
     },
     "overrides": [
-    {
-      "predicate": {
-        "custom_model_data": 1
-      },
-      "model": "item/vehicles/tankisbase"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 2
-      },
-      "model": "item/vehicles/moskvitch"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 3
-      },
-      "model": "item/vehicles/ladaniva"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 4
-      },
-      "model": "item/vehicles/jeep"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 5
-      },
-      "model": "item/vehicles/heli"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 6
-      },
-      "model": "item/vehicles/civilboat1"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 7
-      },
-      "model": "item/vehicles/mig1"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 8
-      },
-      "model": "item/vehicles/polikarpov"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 9
-      },
-      "model": "item/vehicles/cadillac62"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 10
-      },
-      "model": "item/vehicles/motorcycle"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 11
-      },
-      "model": "item/vehicles/truck"
-    },    
-    {
-      "predicate": {
-        "custom_model_data": 12
-      },
-      "model": "item/vehicles/shoppingcart"
-    },    
-    {
-      "predicate": {
-        "custom_model_data": 13
-      },
-      "model": "item/vehicles/policeveh"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 14
-      },
-      "model": "item/vehicles/unmarkedvan"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 15
-      },
-      "model": "item/vehicles/bus"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 16
-      },
-      "model": "item/vehicles/b2plane"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 17
-      },
-      "model": "item/vehicles/privateplane"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 18
-      },
-      "model": "item/vehicles/ambulance"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 19
-      },
-      "model": "item/vehicles/swspeederbike"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 20
-      },
-      "model": "item/vehicles/swlandspeeder"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 21
-      },
-      "model": "item/vehicles/trolly"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 22
-      },
-      "model": "item/vehicles/bumpercarred"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 23
-      },
-      "model": "item/vehicles/firetruck"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 24
-      },
-      "model": "item/vehicles/taxi"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 25
-      },
-      "model": "item/vehicles/hearse"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 26
-      },
-      "model": "item/vehicles/ufo"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 27
-      },
-      "model": "item/vehicles/newsvan"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 28
-      },
-      "model": "item/vehicles/swatvan"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 29
-      },
-      "model": "item/vehicles/streetsweep"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 30
-      },
-      "model": "item/vehicles/heliorange"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 31
-      },
-      "model": "item/vehicles/garbagetruck"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 32
-      },
-      "model": "item/vehicles/preslimo"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 33
-      },
-      "model": "item/vehicles/lamborghini"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 34
-      },
-      "model": "item/vehicles/warthog"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 35
-      },
-      "model": "item/vehicles/halofalcon"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 36
-      },
-      "model": "item/vehicles/schoolbus"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 37
-      },
-      "model": "item/vehicles/bmw"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 38
-      },
-      "model": "item/misc/fueltank"
-    },
-    {
-      "predicate": {
-        "custom_model_data": 39
-      },
-      "model": "item/vehicles/tankcannon"
-    }
+        {"predicate":{"custom_model_data":1},"model":"qualityarmory:vehicle/tankisbase"},
+        {"predicate":{"custom_model_data":2},"model":"qualityarmory:vehicle/moskvitch"},
+        {"predicate":{"custom_model_data":3},"model":"qualityarmory:vehicle/ladaniva"},
+        {"predicate":{"custom_model_data":4},"model":"qualityarmory:vehicle/jeep"},
+        {"predicate":{"custom_model_data":5},"model":"qualityarmory:vehicle/heli"},
+        {"predicate":{"custom_model_data":6},"model":"qualityarmory:vehicle/civilboat1"},
+        {"predicate":{"custom_model_data":7},"model":"qualityarmory:vehicle/mig1"},
+        {"predicate":{"custom_model_data":8},"model":"qualityarmory:vehicle/polikarpov"},
+        {"predicate":{"custom_model_data":9},"model":"qualityarmory:vehicle/cadillac62"},
+        {"predicate":{"custom_model_data":10},"model":"qualityarmory:vehicle/motorcycle"},
+        {"predicate":{"custom_model_data":11},"model":"qualityarmory:vehicle/truck"},
+        {"predicate":{"custom_model_data":12},"model":"qualityarmory:vehicle/shoppingcart"},
+        {"predicate":{"custom_model_data":13},"model":"qualityarmory:vehicle/policeveh"},
+        {"predicate":{"custom_model_data":14},"model":"qualityarmory:vehicle/unmarkedvan"},
+        {"predicate":{"custom_model_data":15},"model":"qualityarmory:vehicle/bus"},
+        {"predicate":{"custom_model_data":16},"model":"qualityarmory:vehicle/b2plane"},
+        {"predicate":{"custom_model_data":17},"model":"qualityarmory:vehicle/privateplane"},
+        {"predicate":{"custom_model_data":18},"model":"qualityarmory:vehicle/ambulance"},
+        {"predicate":{"custom_model_data":19},"model":"qualityarmory:vehicle/swspeederbike"},
+        {"predicate":{"custom_model_data":20},"model":"qualityarmory:vehicle/swlandspeeder"},
+        {"predicate":{"custom_model_data":21},"model":"qualityarmory:vehicle/trolly"},
+        {"predicate":{"custom_model_data":22},"model":"qualityarmory:vehicle/bumpercarred"},
+        {"predicate":{"custom_model_data":23},"model":"qualityarmory:vehicle/firetruck"},
+        {"predicate":{"custom_model_data":24},"model":"qualityarmory:vehicle/taxi"},
+        {"predicate":{"custom_model_data":25},"model":"qualityarmory:vehicle/hearse"},
+        {"predicate":{"custom_model_data":26},"model":"qualityarmory:vehicle/ufo"},
+        {"predicate":{"custom_model_data":27},"model":"qualityarmory:vehicle/newsvan"},
+        {"predicate":{"custom_model_data":28},"model":"qualityarmory:vehicle/swatvan"},
+        {"predicate":{"custom_model_data":29},"model":"qualityarmory:vehicle/streetsweep"},
+        {"predicate":{"custom_model_data":30},"model":"qualityarmory:vehicle/heliorange"},
+        {"predicate":{"custom_model_data":31},"model":"qualityarmory:vehicle/garbagetruck"},
+        {"predicate":{"custom_model_data":32},"model":"qualityarmory:vehicle/preslimo"},
+        {"predicate":{"custom_model_data":33},"model":"qualityarmory:vehicle/lamborghini"},
+        {"predicate":{"custom_model_data":34},"model":"qualityarmory:vehicle/warthog"},
+        {"predicate":{"custom_model_data":35},"model":"qualityarmory:vehicle/halofalcon"},
+        {"predicate":{"custom_model_data":36},"model":"qualityarmory:vehicle/schoolbus"},
+        {"predicate":{"custom_model_data":37},"model":"qualityarmory:vehicle/bmw"},
+        {"predicate":{"custom_model_data":38},"model":"qualityarmory:misc/fueltank"},
+        {"predicate":{"custom_model_data":39},"model":"qualityarmory:vehicle/tankcannon"}
 	]
 }
