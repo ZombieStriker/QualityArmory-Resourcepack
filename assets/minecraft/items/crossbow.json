@@ -1,0 +1,629 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": {
+      "type": "model",
+      "model": "item/crossbow_standby"
+    },
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/p30"
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/pkp"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/mp5"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/ak47"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/ak47u"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m16"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/remmington"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/fnfal"
+        }
+      },
+      {
+        "threshold": 9,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/rpg"
+        }
+      },
+      {
+        "threshold": 10,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/ump"
+        }
+      },
+      {
+        "threshold": 11,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/sw1911"
+        }
+      },
+      {
+        "threshold": 12,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m40"
+        }
+      },
+      {
+        "threshold": 13,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/enfield"
+        }
+      },
+      {
+        "threshold": 14,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/mauser"
+        }
+      },
+      {
+        "threshold": 15,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/grenade"
+        }
+      },
+      {
+        "threshold": 16,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/dragunov"
+        }
+      },
+      {
+        "threshold": 17,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/spas"
+        }
+      },
+      {
+        "threshold": 18,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/aa12"
+        }
+      },
+      {
+        "threshold": 19,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/magnum"
+        }
+      },
+      {
+        "threshold": 20,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/awp"
+        }
+      },
+      {
+        "threshold": 21,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/smokegrenade"
+        }
+      },
+      {
+        "threshold": 22,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/flashbang"
+        }
+      },
+      {
+        "threshold": 23,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/p30sil"
+        }
+      },
+      {
+        "threshold": 24,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/awp2"
+        }
+      },
+      {
+        "threshold": 25,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m4a1s"
+        }
+      },
+      {
+        "threshold": 26,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/rpk"
+        }
+      },
+      {
+        "threshold": 27,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/sg553"
+        }
+      },
+      {
+        "threshold": 28,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/dp27"
+        }
+      },
+      {
+        "threshold": 29,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/incendarygrenade"
+        }
+      },
+      {
+        "threshold": 30,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/homingrpg"
+        }
+      },
+      {
+        "threshold": 31,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/musketpistol"
+        }
+      },
+      {
+        "threshold": 32,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/lazerrifle"
+        }
+      },
+      {
+        "threshold": 33,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/fatman"
+        }
+      },
+      {
+        "threshold": 34,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/fo10mm"
+        }
+      },
+      {
+        "threshold": 35,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/instituterifle"
+        }
+      },
+      {
+        "threshold": 36,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/musketrifle"
+        }
+      },
+      {
+        "threshold": 37,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/aliens"
+        }
+      },
+      {
+        "threshold": 38,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/auto9"
+        }
+      },
+      {
+        "threshold": 39,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/arcgun"
+        }
+      },
+      {
+        "threshold": 40,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/halo"
+        }
+      },
+      {
+        "threshold": 41,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/needler"
+        }
+      },
+      {
+        "threshold": 42,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/thatgun"
+        }
+      },
+      {
+        "threshold": 43,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/swblaster"
+        }
+      },
+      {
+        "threshold": 44,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/overwatchpulsegun"
+        }
+      },
+      {
+        "threshold": 45,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/vera"
+        }
+      },
+      {
+        "threshold": 46,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberblue"
+        }
+      },
+      {
+        "threshold": 47,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberred"
+        }
+      },
+      {
+        "threshold": 48,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/mac10"
+        }
+      },
+      {
+        "threshold": 49,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/uzi"
+        }
+      },
+      {
+        "threshold": 50,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/skorpion"
+        }
+      },
+      {
+        "threshold": 51,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/sks"
+        }
+      },
+      {
+        "threshold": 52,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/barrett"
+        }
+      },
+      {
+        "threshold": 53,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/makarov"
+        }
+      },
+      {
+        "threshold": 54,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/ppsh41"
+        }
+      },
+      {
+        "threshold": 55,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m79"
+        }
+      },
+      {
+        "threshold": 56,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/minigun"
+        }
+      },
+      {
+        "threshold": 57,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/mark19"
+        }
+      },
+      {
+        "threshold": 58,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/asval"
+        }
+      },
+      {
+        "threshold": 59,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/fnp90"
+        }
+      },
+      {
+        "threshold": 60,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/kar98k"
+        }
+      },
+      {
+        "threshold": 61,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/mp40"
+        }
+      },
+      {
+        "threshold": 62,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/stg44"
+        }
+      },
+      {
+        "threshold": 63,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/sawshotgun"
+        }
+      },
+      {
+        "threshold": 64,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/famas"
+        }
+      },
+      {
+        "threshold": 65,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/flamer"
+        }
+      },
+      {
+        "threshold": 66,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/stengun"
+        }
+      },
+      {
+        "threshold": 67,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m32a1"
+        }
+      },
+      {
+        "threshold": 68,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/aiming"
+        }
+      },
+      {
+        "threshold": 69,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/fivesevenfive"
+        }
+      },
+      {
+        "threshold": 70,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberblack"
+        }
+      },
+      {
+        "threshold": 71,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberwhite"
+        }
+      },
+      {
+        "threshold": 72,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsabergreen"
+        }
+      },
+      {
+        "threshold": 73,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberpurple"
+        }
+      },
+      {
+        "threshold": 74,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/lightsaberorange"
+        }
+      },
+      {
+        "threshold": 75,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/uzicorn"
+        }
+      },
+      {
+        "threshold": 76,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/henry"
+        }
+      },
+      {
+        "threshold": 77,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:melee/spear"
+        }
+      },
+      {
+        "threshold": 78,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/deagle"
+        }
+      },
+      {
+        "threshold": 79,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/pancorjackhammer"
+        }
+      },
+      {
+        "threshold": 80,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/molotov"
+        }
+      },
+      {
+        "threshold": 81,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/proxymine"
+        }
+      },
+      {
+        "threshold": 82,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/m1garand"
+        }
+      },
+      {
+        "threshold": 83,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/galil"
+        }
+      },
+      {
+        "threshold": 84,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:gun/ctar21" 
+        }
+      },
+      {
+        "threshold": 85,
+        "model": {
+          "type": "model",
+          "model": "qualityarmory:misc/ammobag"
+        }
+      }
+    ]
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [-90, 0, -60],
+      "translation": [2, 0.1, -3],
+      "scale": [0.9, 0.9, 0.9]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [-90, 0, 30],
+      "translation": [2, 0.1, -3],
+      "scale": [0.9, 0.9, 0.9]
+    },
+    "firstperson_righthand": {
+      "rotation": [-90, 0, -55],
+      "translation": [1.13, 3.2, 1.13],
+      "scale": [0.68, 0.68, 0.68]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-90, 0, 35],
+      "translation": [1.13, 3.2, 1.13],
+      "scale": [0.68, 0.68, 0.68]
+    }
+  }
+}
