@@ -1,6 +1,0 @@
-{
-    "parent": "item/crossbow",
-    "textures": {
-        "layer0": "model:item/crossbow_arrow"
-    }
-}
