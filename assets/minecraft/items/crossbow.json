@@ -616,8 +616,8 @@
           }
         ],
         "fallback": {
-          "type": "range_dispatch",
-          "property": "minecraft:crossbow/pull",
+        "type": "minecraft:model",
+        "model": "minecraft:item/crossbow"
           "entries": [
             {
               "threshold": 0.58,
