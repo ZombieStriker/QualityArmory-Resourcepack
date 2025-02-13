@@ -1,10 +1,10 @@
-{
+{{
   "model": {
     "type": "range_dispatch",
     "property": "custom_model_data",
     "fallback": {
       "type": "range_dispatch",
-      "property": "minecraft:crossbow/pull",
+      "property": "minecraft:crossbow",
       "entries": [
         {
           "threshold": 0.58,
@@ -620,11 +620,63 @@
         "model": {
           "type": "model",
           "model": "qualityarmory:misc/ammobag"
+                }
+            }
+    ],
+    "fallback": {
+      "type": "condition",
+      "property": "minecraft:using_item",
+      "on_false": {
+        "type": "select",
+        "property": "minecraft:charge_type",
+        "cases": [
+          {
+            "when": "arrow",
+            "model": { "type": "model", "model": "minecraft:item/crossbow_arrow" }
+          },
+          {
+            "when": "rocket",
+            "model": { "type": "model", "model": "minecraft:item/crossbow_firework" }
+          }
+        ],
+        "fallback": {
+          "type": "range_dispatch",
+          "property": "minecraft:crossbow/pull",
+          "entries": [
+            {
+              "threshold": 0.58,
+              "model": { "type": "model", "model": "minecraft:item/crossbow_pulling_1" }
+            },
+            {
+              "threshold": 1.0,
+              "model": { "type": "model", "model": "minecraft:item/crossbow_pulling_2" }
+            },
+            {
+            "threshold": 0.0,
+            "model": { "type": "model", "model": "minecraft:item/crossbow_pulling_0" }
+            }
+          ],
+          "fallback": { "type": "model", "model": "minecraft:item/crossbow_standby" }
         }
+      },
+      "on_true": {
+        "type": "range_dispatch",
+        "property": "minecraft:crossbow/pull",
+        "entries": [
+          {
+            "threshold": 0.58,
+            "model": { "type": "model", "model": "minecraft:item/crossbow_pulling_1" }
+          },
+          {
+            "threshold": 1.0,
+            "model": { "type": "model", "model": "minecraft:item/crossbow_pulling_2" }
+          }
+        ],
+        "fallback": { "type": "model", "model": "minecraft:item/crossbow_pulling_0" }
       }
-    ]
+    }
   },
-  "display": {
+   "display": {
     "thirdperson_righthand": {
       "rotation": [-90, 0, -60],
       "translation": [2, 0.1, -3],
@@ -647,4 +699,3 @@
     }
   }
 }
-
