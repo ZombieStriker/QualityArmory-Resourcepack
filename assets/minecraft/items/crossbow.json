@@ -3,28 +3,56 @@
     "type": "range_dispatch",
     "property": "custom_model_data",
     "fallback": {
-      "type": "range_dispatch",
-      "property": "minecraft:crossbow/pull",
-      "entries": [
-        {
-          "threshold": 0.58,
-          "model": {
-            "type": "model",
-            "model": "minecraft:item/crossbow_pulling_1"
+      "type": "minecraft:condition",
+      "on_false": {
+        "type": "minecraft:select",
+        "cases": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_arrow"
+            },
+            "when": "arrow"
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_firework"
+            },
+            "when": "rocket"
           }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow"
         },
-        {
-          "threshold": 1.0,
-          "model": {
-            "type": "model",
-            "model": "minecraft:item/crossbow_pulling_2"
+        "property": "minecraft:charge_type"
+      },
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_1"
+            },
+            "threshold": 0.58
+          },
+          {
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_2"
+            },
+            "threshold": 1.0
           }
-        }
-      ],
-      "fallback": {
-        "type": "model",
-        "model": "minecraft:item/crossbow_pulling_0"
-      }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_pulling_0"
+        },
+        "property": "minecraft:crossbow/pull"
+      },
+      "property": "minecraft:using_item"
     },
     "entries": [
       {
@@ -612,7 +640,7 @@
         "threshold": 84,
         "model": {
           "type": "model",
-          "model": "qualityarmory:gun/ctar21" 
+          "model": "qualityarmory:gun/ctar21"
         }
       },
       {
@@ -647,4 +675,3 @@
     }
   }
 }
-
