@@ -42,6 +42,7 @@
         {"predicate":{"custom_model_data":36},"model":"qualityarmory:vehicle/schoolbus"},
         {"predicate":{"custom_model_data":37},"model":"qualityarmory:vehicle/bmw"},
         {"predicate":{"custom_model_data":38},"model":"qualityarmory:misc/fueltank"},
-        {"predicate":{"custom_model_data":39},"model":"qualityarmory:vehicle/tankcannon"}
+        {"predicate":{"custom_model_data":39},"model":"qualityarmory:vehicle/tankcannon"},
+        {"predicate":{"custom_model_data":40},"model":"qualityarmory:vehicle/carriage"}
 	]
 }
