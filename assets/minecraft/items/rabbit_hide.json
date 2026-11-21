@@ -279,6 +279,13 @@
                     "type": "model",
                     "model": "qualityarmory:vehicle/tankcannon"
                 }
+            },
+            {
+                "threshold": 40,
+                "model": {
+                    "type": "model",
+                    "model": "qualityarmory:vehicle/carriage"
+                }
             }
         ]
     }
